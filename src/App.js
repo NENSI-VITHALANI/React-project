@@ -1,24 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Slider from './components/Slider';
+import Second from './components/second';
+import Third from './components/third';
+import Fourth from './components/Fourth';
+import Fifth from './components/fifth';
+import Six from './components/sixth';
+import Seven from './components/seven';
+import Eight from './components/eight';
+import Footer from './components/Footer';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+      {
+        <body>
+                <Header />
+                <Slider />
+                <Second />
+                <Third />
+                <Fourth />
+                <Fifth />
+                <Six />
+                <Seven />
+                <Eight />
+                <Footer/>
+        </body>
+      }
+
+    </>
   );
 }
 
